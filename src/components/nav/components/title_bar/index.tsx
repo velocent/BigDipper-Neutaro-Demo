@@ -21,7 +21,6 @@ const TitleBar:React.FC<{
   const classes = useStyles();
   const marketState = useRecoilValue(readMarket);
 
-  console.log(marketState);
   const market = formatMarket(marketState);
 
   const logoUrl = R.pathOr(chainConfig.logo.default, ['logo', theme], chainConfig);
