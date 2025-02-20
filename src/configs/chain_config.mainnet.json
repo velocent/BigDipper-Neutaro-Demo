@@ -1,0 +1,28 @@
+{
+  "title": "Neutaro Mainnet Block Explorer",
+  "network": "Neutaro-1",
+  "icon": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/ntmpi.webp",
+  "logo": {
+    "default": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/ntmpi.webp"
+  },
+  "prefix": {
+    "consensus": "neutarovalcons",
+    "validator": "neutarovaloper",
+    "account": "neutaro"
+  },
+  "genesis": {
+    "time": "2023-07-19T08:00:00.127125301Z",
+    "height": 1
+  },
+  "primaryTokenUnit": "uneutaro",
+  "votingPowerTokenUnit": "uneutaro",
+  "tokenUnits": {
+    "uneutaro": {
+      "display": "NTMPI",
+      "exponent": 6
+    }
+  },
+  "extra": {
+    "profile": true
+  }
+}
